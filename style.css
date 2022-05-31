@@ -16,15 +16,17 @@ body {
   background-color: blueviolet;
   font-family: "Times New Roman", Times, serif;
   display: flex;
+  flex: wrap;
+  justify-content: space-around;
 }
 
 .password {
   font-size: 5rem;
   background-color: yellow;
   border-radius: 15%;
-  margin: 10rem 15rem;
+  margin: 5rem 5rem;
 }
 button {
   background-color: blue;
-  margin: 10rem 15rem;
+  margin: auto;
 }
