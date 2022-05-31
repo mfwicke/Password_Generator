@@ -1,0 +1,30 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: blueviolet;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+}
+
+.password {
+  font-size: 5rem;
+  background-color: yellow;
+  border-radius: 15%;
+  margin: 10rem 15rem;
+}
+button {
+  background-color: blue;
+  margin: 10rem 15rem;
+}
